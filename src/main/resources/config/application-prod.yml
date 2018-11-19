@@ -19,4 +19,25 @@ server:
         mime-types: text/html,text/xml,text/plain,text/css, application/javascript, application/json
         min-response-size: 1024
 
+passwdfile:
+  users:
+    - name: root
+      uid: 0
+      gid: 0
+      comment: root
+      home: /root
+      shell: /bin/bash
+    - name: dwoodlins
+      uid: 1001
+      gid: 1001
+      comment:
+      home: /home/dwoodlins
+      shell: /bin/false
+  groups:
+    - name: _analyticsusers
+      gid: 250
+      members: _analyticsd,_networkd,_timed
+    - name: docker
+      gid: 1002
+      members: 
 

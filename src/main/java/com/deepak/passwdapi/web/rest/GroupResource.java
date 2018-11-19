@@ -20,7 +20,6 @@ import com.deepak.passwdapi.repository.GroupRepository;
 import com.deepak.passwdapi.service.GroupService;
 
 @RestController
-@RequestMapping("/api")
 public class GroupResource {
 
 	private final Logger log = LoggerFactory.getLogger(GroupResource.class);

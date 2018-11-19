@@ -13,9 +13,9 @@
 
 logging:
     level:
-        ROOT: DEBUG
-        com.deepak.passwdservice: DEBUG
-        io.github.jhipster: DEBUG
+        ROOT: INFO
+        com.deepak.passwdservice: INFO
+        io.github.jhipster: INFO
 
 spring:
     profiles:
