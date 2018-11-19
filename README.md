@@ -9,15 +9,15 @@ Run the following commands in terminals to create a development experience
 
     mvn spring-boot:run
 
-    To ensure everything worked, run:
-
-    java -jar target/*.war
-
     Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
 
     To test User API run [http://localhost:8080/users](http://localhost:8080/users) in your browser.
 
     To test Group API run [http://localhost:8080/groups](http://localhost:8080/groups) in your browser.
+    
+    To ensure everything worked, you can also run:
+
+    java -jar target/*.war
 
 ## Building for production
 
