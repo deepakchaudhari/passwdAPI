@@ -38,7 +38,7 @@ To launch your application's tests, run:
 
     mvn clean test
 
-##Configuration
+## Configuration
 
 For Edit or user for Dev Update below file
 /passwdapi/src/main/resources/config/application-dev.yml
